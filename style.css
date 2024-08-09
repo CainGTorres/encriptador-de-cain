@@ -90,6 +90,10 @@ header{
 .caja__texto::placeholder {
     color: (var(--color-texto));
 }
+h1{
+    font-size: 12px;
+    color: var(--color-grisoscuro);
+}
 
 .contenedor__botones {
     min-height: 80px;

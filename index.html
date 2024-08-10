@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado Cain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="encriptado-assets/Logo.png" alt="logo alura">
+        <p class="titulo">Encripta un mensaje</p>
+    </header>
+    <main id="principal"> 
+        <div class="main">
+        <section class="seccion__primera"> <!--<p>Esta sección contiene los elementos de la derecha</p> -->
+            <div class="contenedor_caja_texto"></div> 
+                <textarea id="cajatexto" placeholder="Ingrese el Texto Aquí" class="caja__texto"></textarea>
+                    <div class="footer__seccion__primera">
+                        <div class="base__condicion">
+                            <img src="encriptado-assets/frame-1.png" alt="bases y condiciones">
+                                <!--<p>Solo letras minúsculas y sin acentos</p> -->
+                        </div>  
+                        <div class="contenedor__botones">
+                            <input id="encriptador" class="boton__encriptador cripto" type="button" value="Encriptar">
+                            <input id="desencriptador" class="boton__desencriptador descripto" type="button" value="Desencriptar">
+                        </div> 
+                    </div>
+            
+        </section>
+        <section id="seccionsegunda" class="seccion__segunda ajustar"> <!--<p>Contiene los elementos de la izquierda</p> -->
+            <div id="muniequito" class="contenedor__munieco">
+                <img src="encriptado-assets/Muneco02.jpg" alt="muniequito">
+            </div>
+            <div class="conetenedor__parrafo">
+                <textarea id="mensajeFinal"  placeholder=" Ningún mensaje fue encontrado" class="mensaje__final ajustar"></textarea>
+                <p id="informacion" class="parrafo__infomacion">Ingresa el texto que deses encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedor__copiar">
+                <input id="copiar" class="boton__copiar escondido" type="button" value="Copiar">
+            </div>
+            <div class="contenedor__resultado">
+                <p class="parrafo__resultado"></p>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <nav class="navegacion">
+            <p class="creador">Creado por: Caín Gabriel Torres</p>
+            <a href="https://github.com/CainGTorres">
+                <img class="git hub" src="./encriptado-assets/github.png" alt="GitHub"> 
+            </a>
+            <a href="https://www.linkedin.com/in/ca%C3%ADn-gabriel-torres-139355248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img class="link din" src="./encriptado-assets/LinkedIn.png" alt="linkedin">
+            </a>    
+            <a href="https://www.instagram.com/gabic.torres?igsh=OGF0d2JhamJnemg4">
+                <img class="insta gram" src="./encriptado-assets/instagram2.png" alt="instagram">
+            </a>
+        </nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
